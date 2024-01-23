@@ -1,0 +1,75 @@
+.scroll{
+
+    height: 500px;
+    overflow:scroll;
+    margin-top: 2em;
+    width: 100%;
+    border: 1px solid rgba(14, 140, 219, 0.972);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.main-head{
+align-self: flex-start;
+}
+
+.table-sticky thead {
+position: sticky;
+top: 0;
+background-color: #fff; /* Set a background color for the sticky headers */
+z-index: 1; /* Ensure the sticky headers appear above the table content */
+}
+.page{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(111, 111, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(207, 206, 206);
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 8em;
+    margin-bottom: 9em;
+}
+
+
+p{
+    padding-top: 1em;
+}
+
+
+
+
+link{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    
+    border: 1px solid gray;
+    margin-top: 1em;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(183, 183, 183);
+}

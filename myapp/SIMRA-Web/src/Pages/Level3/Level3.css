@@ -1,0 +1,7 @@
+.profile-icon {
+    font-size: 20px; /* Adjust the font size as needed */
+    border-radius: 50%;
+    background-color: #333638; /* Set the background color for the circle */
+    color: #fff; /* Set the text color */
+    padding: 8px; /* Adjust the padding as needed */
+  }

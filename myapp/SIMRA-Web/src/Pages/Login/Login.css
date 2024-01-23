@@ -1,0 +1,33 @@
+.error-message {
+    color: red;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-description {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+.signup-link {
+    color: black;
+    margin-right: 5px; 
+    /* You can add more styles if needed */
+  }
+

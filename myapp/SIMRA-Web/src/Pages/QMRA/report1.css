@@ -1,0 +1,30 @@
+.scroll{
+
+    max-height: 500px;
+    overflow:scroll;
+    margin-bottom: 2em;
+    width: 100%;
+    border: 1px solid rgba(202, 204, 205, 0.972);
+    box-shadow:0 0 10px rgb(111, 111, 110);
+
+}
+
+.main-head{
+align-self: flex-start;
+}
+
+.table-sticky thead {
+position: sticky;
+top: 0;
+background-color: #fff; /* Set a background color for the sticky headers */
+z-index: 1; /* Ensure the sticky headers appear above the table content */
+}
+
+h1{
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.nodata-text{
+    color: rgb(66, 198, 159);
+    font-size: large;
+}

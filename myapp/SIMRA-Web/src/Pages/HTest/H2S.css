@@ -1,0 +1,48 @@
+.show {
+    background-color: #404d45;
+    font-size: medium;
+    margin-top: 50px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.button_option {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.submit_button {
+    background-color: #3a3b3b;
+    font-size: medium;
+    margin-top: 50px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+
+}
+
+.radio_button {
+    width: 20px;
+    height: 20px;
+  
+    margin-right: 10px;
+    color: black;
+   
+}
+.radio_button:checked {
+    background-color: black; /* Change the background color to black for selected radio buttons */
+    border-color: black; 
+    color: white; 
+  }
+  .block{
+    width: 100px;
+  text-align: center;
+  margin-left: 400px;
+  height: 50px;
+  }
+ 

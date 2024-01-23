@@ -1,0 +1,12 @@
+body {
+    background-image: url("./back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur('25px');
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  

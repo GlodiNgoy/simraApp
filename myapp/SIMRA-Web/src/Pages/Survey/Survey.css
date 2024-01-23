@@ -1,0 +1,32 @@
+.show{
+    background-color: #404d45;
+    font-size: medium;
+    margin-top: 50px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+}
+.button{
+    background-color: #404d45;
+    font-size: medium;
+    margin-top: 50px;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    align-items: center;
+    margin-left: 700px;
+
+}
+.success{
+    background-color: rgb(95, 182, 117);
+    margin-top: 50px;
+    background-size: 10px;
+    width: 800px;
+    margin-left: 400px;
+    color: aliceblue;
+}
+.popup{
+    height: 500px;
+}

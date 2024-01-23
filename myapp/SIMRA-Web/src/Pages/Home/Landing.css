@@ -1,0 +1,438 @@
+.header{
+  width: 100%;
+  background: rgba(102, 102, 102, 0.5);
+  box-shadow: 0 0 10px rgb(155, 154, 154);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoname{
+  border: 0px;
+  font-size: 25px;
+  margin-left: 10px; 
+}
+
+.text1{
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+.text2{
+  font-size: 20px;
+
+}
+
+.simra{
+  color: white;
+  border: 0px;
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+#home{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 8em;
+  padding-bottom: 1em;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./image.jpg") center/cover fixed; /* Apply background properties directly to the pseudo-element */
+  background-attachment: fixed;
+  filter: brightness(50%); /* Adjust the brightness for the dimming effect */
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
+
+.top{
+ width: 100%;
+ display: flex;
+ 
+ align-items: center;
+ justify-content: space-between;
+ padding: 1em 6em 1em 6em;
+}
+
+.simra {
+  font-size: 3.5em; /* You can adjust the value to increase or decrease the font size */
+}
+
+
+
+.top nav ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.link{
+margin-right: 1em;
+}
+
+.link2{
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 1px;
+}
+.link3{
+  background-color: rgb(49, 48, 48);
+  color: rgb(252, 248, 248);
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 1px;
+  width: 100px;
+}
+
+.bottom{
+  width: 100%;
+  display: flex;
+  padding: 0em 8em 0em 8em;
+  
+}
+.bottom nav{
+  width: 100%;
+}
+.bottom nav ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+.bottom nav ul li a{
+  text-decoration: none;
+  color: white;
+   /* Ensure relative positioning for the pseudo-element */
+}
+
+.bottom nav ul li a:hover,
+.bottom nav ul li a:active,
+.bottom nav ul li a:visited {
+  text-decoration: none !important;
+  border-bottom: 2px solid white !important;
+}
+
+
+.landingContainer{
+  padding-top: 8em;
+  width: 100%;
+}
+
+.About_Container{
+padding-top: 8em;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-left: 6em;
+padding-right: 6em;
+margin-bottom: 1em;
+}
+
+.About_Container p{
+width: 100%;
+text-align: center;
+}
+
+.socialicoins{
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.socialicoins a{
+  margin-right: 5em;
+  
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.socialicoins a:hover{
+  box-shadow: 0 0 10px rgb(154, 154, 155);
+}
+
+.about_row{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_row_col{
+  width: 87%;
+  height: 100%;
+  display: flex;
+  padding-right: 10em;
+  padding-left: 10em;
+}
+
+.about_row img{
+  width: 35%;
+  height: 100%;
+}
+
+.about-text{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+.containerHead{
+  text-align: center;
+  width: 100%;
+}
+
+
+.formContainer{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+form {
+  width: 70%;
+  background-color: rgba(59, 66, 66, 0.7); /* Adjust the alpha value (0.0 to 1.0) for transparency */
+  box-shadow: 1px 1px 3px 2px #ddd;
+  border: 2px solid #35f3f3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.formContainer p{
+  text-align: center;
+  
+}
+
+.name_email_row{
+  
+  width: 100%;
+  display: flex;
+
+}
+
+.group1{
+  width: 50%;
+  margin-right: 1em;
+}
+.group2{
+  width: 50%;
+  margin-left: 1em;
+}
+
+.control{
+  width: 100%;
+}
+
+
+.form-group-msg #message{
+  width: 100%;
+}
+
+#contact .btn-custom {
+  margin-top: 1px;
+  font-size: 14px;
+  width: 100%;
+  background: #35f3f3;
+  border: 2px solid #fff;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+#contact .btn-custom:active {
+  background: #00ff00; /* Change the color to green when the button is pressed */
+}
+
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+}
+.contact-info-title{
+  display: flex;
+  justify-content:flex-start;
+}
+
+.contact-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-detail{
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 70px;
+}
+
+.Eventslider{
+  width:100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.Events{
+  width:70%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: none; /* Hide all events by default */
+  
+  box-shadow: 0 0 10px rgb(155, 154, 154);
+
+}
+
+.Events.active {
+  display: block; /* Display the active event */
+
+  
+    
+}
+.EventImage{
+   background-size: cover;
+   background-position: center;
+   width: 50%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+.Eventtext{
+   
+   width: 50%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 1em;
+}
+
+.Event{
+  
+   
+   width: 100%;
+   height: 500px;
+   display: flex;
+   border: 1px solid rgb(180, 180, 180);
+  
+}
+
+
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(56, 56, 56, 0.5); /* Adjust the alpha value for the desired level of dimming */
+}
+
+
+.arrow2{
+  margin-left: 1em;
+}
+.arrow1{
+  margin-right: 1em;
+}
+
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+.footer{
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 0 10px rgb(155, 154, 154);
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 6em;
+  padding-left: 6em;
+}
+
+
+.list-style{
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 1em;
+}
+
+.aboutText{
+ width: 50%;
+ 
+}
+
+.img_responsive{
+width: 50%;
+height: 100%;
+margin-right: 1em;
+
+}
+

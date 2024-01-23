@@ -1,0 +1,12 @@
+.success{
+    background-color: rgb(95, 182, 117);
+    margin-top: 50px;
+    background-size: 10px;
+    width: 800px;
+    margin-left: 100px;
+    color: aliceblue;
+}
+.outline-primary {
+    max-height: 300px;
+    overflow-y: scroll;
+}
